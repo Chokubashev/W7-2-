@@ -1,0 +1,7 @@
+protocol SuperAbility {
+    func ability()
+}
+
+
+
+
