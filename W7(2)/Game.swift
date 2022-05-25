@@ -58,7 +58,7 @@ class Game: SuperAbility  {
     func ability() {
         for (index, hero) in heroes.enumerated() {
             if hero.health <= 100 {
-                hero.damage += 70
+                hero.damage = 75
             }
         }
     }
